@@ -46,7 +46,9 @@ class Scene2 extends Phaser.Scene {
    			}
    		function changeDirb (player, wall){
 			this.player.setVelocityX(200);
+			if (this.player.y > 1000){
 		this.player.setVelocityY(-450);
+	}
    			}
 
 
