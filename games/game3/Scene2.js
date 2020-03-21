@@ -36,7 +36,7 @@ class Scene2 extends Phaser.Scene {
 		this.physics.add.collider(this.player, wallleft, changeDirb, null, this);
 
 		function hitBomb (player, enemy){
-   				this.scene.start("GamePlay");
+   				this.scene.start("bootGame");
    			}
    		function changeDir (player, wall){
 			this.player.setVelocityX(-200);
