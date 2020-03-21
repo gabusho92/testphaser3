@@ -1,11 +1,11 @@
 var config = {
-	width: 400,
-	height: 400,
+	width: 800,
+	height: 600,
 	backgroundColor: 0x000000,
     physics: {
     	default: 'arcade',
     	arcade:  {
-    		gravity: {y:1400},
+    		gravity: {y:0},
     		debug: true
     	}
     },
